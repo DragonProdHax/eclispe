@@ -274,6 +274,138 @@ const gamesData = {
       "raw-game-link": "/game-assets/eaglercraft/index.html",
       "category": "Sandbox",
       "tags": ["minecraft", "sandbox", "building", "survival", "crafting", "browser", "classic"]
+    },
+    {
+      "id": 27,
+      "gameId": "slope",
+      "name": "Slope",
+      "description": "Roll down the endless slope at breakneck speed! Navigate through obstacles and stay on the track in this addictive 3D endless runner.",
+      "icon": "assets/slope.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/slope/index.html",
+      "category": "Racing",
+      "tags": ["endless", "3d", "slope", "speed", "obstacles", "rolling", "addictive"]
+    },
+    {
+      "id": 28,
+      "gameId": "10minutestilldawn",
+      "name": "10 Minutes Till Dawn",
+      "description": "Survive waves of enemies for 10 minutes in this intense top-down survival shooter. Upgrade your weapons and abilities to last until dawn!",
+      "icon": "assets/10-minutes-till-dawn.png",
+      "link": null,
+      "raw-game-link": "/game-assets/10minutestilldawn/index.html",
+      "category": "Action",
+      "tags": ["survival", "shooter", "waves", "upgrade", "intense", "top-down", "dawn"]
+    },
+    {
+      "id": 29,
+      "gameId": "2048",
+      "name": "2048",
+      "description": "Combine numbered tiles to reach 2048! Slide tiles in four directions to merge identical numbers in this addictive puzzle game.",
+      "icon": "assets/2048.png",
+      "link": null,
+      "raw-game-link": "/game-assets/2048/index.html",
+      "category": "Puzzle",
+      "tags": ["numbers", "tiles", "merge", "puzzle", "addictive", "strategy", "2048"]
+    },
+    {
+      "id": 31,
+      "gameId": "60sbr",
+      "name": "60 Second Burger Run",
+      "description": "Serve customers quickly in this fast-paced restaurant management game! Take orders, cook burgers, and keep customers happy in 60 seconds.",
+      "icon": "assets/60-second-burger-run.png",
+      "link": null,
+      "raw-game-link": "/game-assets/60sbr/index.html",
+      "category": "Simulation",
+      "tags": ["restaurant", "management", "fast-paced", "cooking", "customers", "burgers", "time"]
+    },
+    {
+      "id": 32,
+      "gameId": "danceoffireandice",
+      "name": "A Dance of Fire and Ice",
+      "description": "Follow the rhythm in this challenging music game! Navigate two orbiting planets through intricate paths while staying in perfect sync with the beat.",
+      "icon": "assets/dance-of-fire-and-ice.png",
+      "link": null,
+      "raw-game-link": "/game-assets/a-dance-of-fire-ice/index.html",
+      "category": "Music",
+      "tags": ["rhythm", "music", "challenging", "planets", "sync", "beat", "dance"]
+    },
+    {
+      "id": 33,
+      "gameId": "adarkroom",
+      "name": "A Dark Room",
+      "description": "Start with nothing but a flickering fire and build a thriving civilization in this minimalist text-based adventure. Explore, gather resources, and uncover mysteries.",
+      "icon": "assets/a-dark-room.png",
+      "link": null,
+      "raw-game-link": "/game-assets/adarkroom/index.html",
+      "category": "Adventure",
+      "tags": ["text-based", "minimalist", "civilization", "resources", "exploration", "mystery", "incremental"]
+    },
+    {
+      "id": 34,
+      "gameId": "adventurecapitalist",
+      "name": "Adventure Capitalist",
+      "description": "Build your business empire from a simple lemonade stand to a massive corporation! Hire managers, invest wisely, and become the ultimate capitalist.",
+      "icon": "assets/adventure-capitalist.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/adventurecapitalist/index.html",
+      "category": "Idle",
+      "tags": ["business", "empire", "investment", "managers", "corporation", "capitalist", "incremental"]
+    },
+    {
+      "id": 35,
+      "gameId": "adventuredrivers",
+      "name": "Adventure Drivers",
+      "description": "Race through challenging terrain and perform stunts in this thrilling driving adventure! Navigate obstacles and reach the finish line in style.",
+      "icon": "assets/adventure-drivers.png",
+      "link": null,
+      "raw-game-link": "/game-assets/adventuredrivers/index.html",
+      "category": "Racing",
+      "tags": ["driving", "adventure", "stunts", "terrain", "obstacles", "racing", "thrilling"]
+    },
+    {
+      "id": 36,
+      "gameId": "ageofwar",
+      "name": "Age Of War",
+      "description": "Defend your base and evolve through different ages in this strategic tower defense game! Build units, upgrade technology, and conquer your enemies.",
+      "icon": "assets/age-of-war.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/ageofwar/index.html",
+      "category": "Strategy",
+      "tags": ["tower-defense", "strategy", "evolution", "ages", "units", "technology", "conquest"]
+    },
+    {
+      "id": 37,
+      "gameId": "ageofwar2",
+      "name": "Age Of War 2",
+      "description": "The epic sequel to Age of War! Command armies across multiple eras, from cavemen to futuristic soldiers in this enhanced strategy experience.",
+      "icon": "assets/age-of-war-2.png",
+      "link": null,
+      "raw-game-link": "/game-assets/ageofwar2/index.html",
+      "category": "Strategy",
+      "tags": ["sequel", "strategy", "armies", "eras", "cavemen", "futuristic", "enhanced"]
+    },
+    {
+      "id": 38,
+      "gameId": "arcadecardrift",
+      "name": "Arcade Car Drift",
+      "description": "Master the art of drifting in this arcade-style racing game! Slide around corners, earn points, and unlock new cars in fast-paced drift challenges.",
+      "icon": "assets/arcade-car-drift.png",
+      "link": null,
+      "raw-game-link": "/game-assets/arcade-car-drift/index.html",
+      "category": "Racing",
+      "tags": ["drifting", "arcade", "racing", "corners", "points", "cars", "fast-paced"]
+    },
+    {
+      "id": 39,
+      "gameId": "archeryworldtour",
+      "name": "Archery World Tour",
+      "description": "Travel the world and compete in archery tournaments! Aim carefully, account for wind, and hit bullseyes to become the world champion archer.",
+      "icon": "assets/archery-world-tour.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/archery-world-tour/index.html",
+      "category": "Sports",
+      "tags": ["archery", "world", "tournaments", "aiming", "wind", "bullseye", "champion"]
     }
   ]
 };

@@ -1,0 +1,55 @@
+<html>
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7FN7LEVWXD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-7FN7LEVWXD');
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Age of War 2 | </title>
+    <link rel="shortcut icon" href="../../images/ico.ico" type="image/x-icon">
+    <script src="../../storage/js/cloak.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function loadLocalRuffle() {
+            var script = document.createElement('script');
+            script.src = '../../storage/ruffle/ruffle.js';
+            document.body.appendChild(script);
+        }
+
+        var cdnScript = document.createElement('script');
+        cdnScript.src = 'https://unpkg.com/@ruffle-rs/ruffle';
+        cdnScript.onerror = loadLocalRuffle;
+        document.body.appendChild(cdnScript);
+    </script>
+
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.addEventListener("load", (event) => {
+            const ruffle = window.RufflePlayer.newest();
+            const player = ruffle.createPlayer();
+            const container = document.getElementById("ruffle");
+            player.id = "player";
+            player.style.width = "100%";
+            player.style.height = "100%";
+            container.appendChild(player);
+            player.load("age-of-war-2-5933395b.swf");
+        });
+    </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"2a2b7f26c71f4b9abae6f71f76049dba","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
