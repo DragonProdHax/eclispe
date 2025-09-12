@@ -142,6 +142,39 @@ const gamesData = {
       "raw-game-link": "/game-assets/retrobowl/index.html",
       "category": "Sports",
       "tags": ["football", "retro", "sports", "team", "strategy", "championship", "american"]
+    },
+    {
+      "id": 14,
+      "gameId": "tag",
+      "name": "Tag",
+      "description": "Classic tag game with a twist! Chase and avoid being tagged in this fast-paced multiplayer action game. Quick reflexes and strategy required!",
+      "icon": "assets/tag.png",
+      "link": null,
+      "raw-game-link": "/game-assets/tag/index.html",
+      "category": "Action",
+      "tags": ["multiplayer", "chase", "fast-paced", "reflexes", "strategy", "classic", "competitive"]
+    },
+    {
+      "id": 16,
+      "gameId": "bitlife",
+      "name": "BitLife",
+      "description": "Live a virtual life from birth to death! Make choices that shape your character's destiny in this addictive life simulation game.",
+      "icon": "assets/bitlife.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/bitlife/index.html",
+      "category": "Simulation",
+      "tags": ["life", "simulation", "choices", "virtual", "destiny", "addictive", "character"]
+    },
+    {
+      "id": 17,
+      "gameId": "basketballstars",
+      "name": "Basketball Stars",
+      "description": "Show off your basketball skills in this exciting sports game! Shoot hoops, perform tricks, and compete against players worldwide.",
+      "icon": "assets/basketball-stars.png",
+      "link": null,
+      "raw-game-link": "/game-assets/basketballstars/index.html",
+      "category": "Sports",
+      "tags": ["basketball", "sports", "shooting", "tricks", "competitive", "skills", "multiplayer"]
     }
   ]
 };
