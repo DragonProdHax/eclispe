@@ -66,6 +66,40 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
 });
 
+// Debug endpoint to check build status
+app.get('/debug/build', (req, res) => {
+  const fs = require('fs');
+  const buildDir = path.join(__dirname, 'client/build');
+  const indexPath = path.join(buildDir, 'index.html');
+  
+  try {
+    const buildExists = fs.existsSync(buildDir);
+    const indexExists = fs.existsSync(indexPath);
+    let buildContents = [];
+    
+    if (buildExists) {
+      buildContents = fs.readdirSync(buildDir);
+    }
+    
+    res.json({
+      buildDirectory: buildDir,
+      buildExists,
+      indexExists,
+      buildContents,
+      currentDir: __dirname,
+      processEnv: {
+        NODE_ENV: process.env.NODE_ENV,
+        PORT: process.env.PORT
+      }
+    });
+  } catch (error) {
+    res.status(500).json({
+      error: 'Debug check failed',
+      message: error.message
+    });
+  }
+});
+
 // Serve React app for all other routes
 app.get('*', (req, res) => {
   const indexPath = path.join(__dirname, 'client/build', 'index.html');
