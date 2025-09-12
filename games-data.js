@@ -175,6 +175,94 @@ const gamesData = {
       "raw-game-link": "/game-assets/basketballstars/index.html",
       "category": "Sports",
       "tags": ["basketball", "sports", "shooting", "tricks", "competitive", "skills", "multiplayer"]
+    },
+    {
+      "id": 18,
+      "gameId": "ovodimensions",
+      "name": "Ovo Dimensions",
+      "description": "Navigate through challenging dimensional platformer levels with precise jumps and timing. Master the art of movement in this addictive skill-based game.",
+      "icon": "assets/ovo-dimensions.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/ovodimensions/index.html",
+      "category": "Platformer",
+      "tags": ["platformer", "dimensions", "precision", "jumping", "skill", "challenging", "timing"]
+    },
+    {
+      "id": 19,
+      "gameId": "gladihoppers",
+      "name": "Gladihoppers",
+      "description": "Battle as a gladiator in this physics-based fighting game! Use strategy and timing to defeat opponents in the arena with hilarious ragdoll combat.",
+      "icon": "assets/gladihoppers.png",
+      "link": null,
+      "raw-game-link": "/game-assets/gladihoppers/index.html",
+      "category": "Action",
+      "tags": ["gladiator", "physics", "fighting", "arena", "ragdoll", "combat", "strategy"]
+    },
+    {
+      "id": 20,
+      "gameId": "deadlydescent",
+      "name": "Deadly Descent",
+      "description": "Survive the treacherous mountain descent in this thrilling survival game. Navigate dangerous terrain and avoid deadly obstacles on your way down.",
+      "icon": "assets/deadly-descent.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/deadlydecent/index.html",
+      "category": "Adventure",
+      "tags": ["survival", "mountain", "descent", "dangerous", "obstacles", "thrilling", "terrain"]
+    },
+    {
+      "id": 21,
+      "gameId": "gunspin",
+      "name": "Gunspin",
+      "description": "Master the art of gun spinning in this physics-based skill game. Time your shots perfectly and use recoil to propel yourself through challenging levels.",
+      "icon": "assets/gunspin.png",
+      "link": null,
+      "raw-game-link": "/game-assets/gunspin/index.html",
+      "category": "Action",
+      "tags": ["physics", "shooting", "skill", "recoil", "timing", "challenging", "spinning"]
+    },
+    {
+      "id": 22,
+      "gameId": "subwaysurferssp",
+      "name": "Subway Surfers SP",
+      "description": "Run through the subway tracks in this special edition of the classic endless runner. Collect coins, dodge trains, and surf your way to high scores!",
+      "icon": "assets/subway-surfers-sp.png",
+      "link": null,
+      "raw-game-link": "/game-assets/subway-surfersSP/index.html",
+      "category": "Racing",
+      "tags": ["endless", "runner", "subway", "coins", "trains", "surfing", "classic"]
+    },
+    {
+      "id": 23,
+      "gameId": "idleants",
+      "name": "Idle Ants",
+      "description": "Build and manage your ant colony in this addictive idle game. Watch your ants work tirelessly to gather resources and expand their underground empire.",
+      "icon": "assets/idle-ants.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/idle_ants/index.html",
+      "category": "Idle",
+      "tags": ["idle", "ants", "colony", "management", "resources", "empire", "addictive"]
+    },
+    {
+      "id": 24,
+      "gameId": "blockblast",
+      "name": "Block Blast",
+      "description": "Clear blocks by creating complete lines in this satisfying puzzle game. Strategic placement and quick thinking are key to achieving high scores.",
+      "icon": "assets/block-blast.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/blockblast/index.html",
+      "category": "Puzzle",
+      "tags": ["puzzle", "blocks", "lines", "strategy", "satisfying", "thinking", "scores"]
+    },
+    {
+      "id": 25,
+      "gameId": "blumgipaintball",
+      "name": "Blumgi Paintball",
+      "description": "Engage in colorful paintball battles with physics-based gameplay. Aim carefully and use the environment to your advantage in this fun multiplayer shooter.",
+      "icon": "assets/blumgi-paintball.png",
+      "link": null,
+      "raw-game-link": "/game-assets/blumgipaintball/index.html",
+      "category": "Action",
+      "tags": ["paintball", "physics", "multiplayer", "shooter", "colorful", "battles", "environment"]
     }
   ]
 };
