@@ -120,6 +120,28 @@ const gamesData = {
       "raw-game-link": "/game-assets/granny/index.html",
       "category": "Horror",
       "tags": ["horror", "escape", "survival", "puzzle", "scary", "stealth", "thriller"]
+    },
+    {
+      "id": 12,
+      "gameId": "skyriders",
+      "name": "Sky Riders",
+      "description": "Soar through the skies in this high-flying adventure game. Navigate aerial challenges, collect power-ups, and master the art of flight!",
+      "icon": "assets/sky-riders.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/skyriders/index.html",
+      "category": "Adventure",
+      "tags": ["flying", "aerial", "adventure", "sky", "power-ups", "flight", "soaring"]
+    },
+    {
+      "id": 13,
+      "gameId": "retrobowl",
+      "name": "Retro Bowl",
+      "description": "Experience classic American football in this retro-style sports game. Manage your team, call plays, and lead them to championship glory!",
+      "icon": "assets/retro-bowl.png",
+      "link": null,
+      "raw-game-link": "/game-assets/retrobowl/index.html",
+      "category": "Sports",
+      "tags": ["football", "retro", "sports", "team", "strategy", "championship", "american"]
     }
   ]
 };
