@@ -8,6 +8,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// Serve React build files
+app.use(express.static(path.join(__dirname, 'client/build')));
+
 // Serve game assets
 app.use('/game-assets', express.static(path.join(__dirname, 'client/src/game-assets')));
 
@@ -63,14 +66,12 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
 });
 
+// Serve React app for all other routes
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+});
 
-// Export for Vercel
-module.exports = app;
-
-// For local development
-if (require.main === module) {
-  const PORT = process.env.PORT || 3001;
-  app.listen(PORT, () => {
-    console.log(`🌙 Eclipse server running on port ${PORT}`);
-  });
-}
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => {
+  console.log(`🌙 Eclipse server running on port ${PORT}`);
+});
