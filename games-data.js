@@ -571,6 +571,105 @@ const gamesData = {
       "raw-game-link": "/game-assets/BlumgiSlime/index.html",
       "category": "Platformer",
       "tags": ["slime", "bouncy", "platformer", "physics", "adorable", "obstacles", "jumping"]
+    },
+    {
+      "id": 55,
+      "gameId": "capybaraclicker",
+      "name": "Capybara Clicker",
+      "description": "Click your way to capybara paradise! Collect cute capybaras, unlock upgrades, and build the ultimate capybara empire in this addictive clicker game.",
+      "icon": "assets/capybara-clicker.png",
+      "link": null,
+      "raw-game-link": "/game-assets/capybara-clicker/index.html",
+      "category": "Idle",
+      "tags": ["clicker", "capybara", "cute", "upgrades", "empire", "addictive", "incremental"]
+    },
+    {
+      "id": 56,
+      "gameId": "cellmachine",
+      "name": "Cell Machine",
+      "description": "Program cellular automata in this fascinating puzzle game! Create complex patterns and behaviors using simple rules in this educational programming experience.",
+      "icon": "assets/cell-machine.png",
+      "link": null,
+      "raw-game-link": "/game-assets/cellmachine/index.html",
+      "category": "Puzzle",
+      "tags": ["cellular", "automata", "programming", "patterns", "educational", "rules", "complex"]
+    },
+    {
+      "id": 57,
+      "gameId": "chess",
+      "name": "Chess",
+      "description": "Play the classic strategy game of chess! Challenge yourself against AI opponents or practice your skills in this timeless board game.",
+      "icon": "assets/chess.png",
+      "link": null,
+      "raw-game-link": "/game-assets/chess/index.html",
+      "category": "Strategy",
+      "tags": ["chess", "strategy", "classic", "board-game", "ai", "timeless", "skill"]
+    },
+    {
+      "id": 58,
+      "gameId": "choppyorc",
+      "name": "Choppy Orc",
+      "description": "Help the orc chop wood and survive in this action-packed adventure! Gather resources, fight enemies, and build your strength in this medieval world.",
+      "icon": "assets/choppy-orc.png",
+      "link": null,
+      "raw-game-link": "/game-assets/choppyorc/index.html",
+      "category": "Action",
+      "tags": ["orc", "chopping", "wood", "survival", "medieval", "resources", "adventure"]
+    },
+    {
+      "id": 59,
+      "gameId": "circloo",
+      "name": "Circloo",
+      "description": "Navigate through circular mazes in this unique puzzle platformer! Roll, jump, and solve your way through increasingly challenging circular levels.",
+      "icon": "assets/circloo.png",
+      "link": null,
+      "raw-game-link": "/game-assets/circloo/index.html",
+      "category": "Platformer",
+      "tags": ["circular", "maze", "puzzle", "platformer", "rolling", "challenging", "unique"]
+    },
+    {
+      "id": 60,
+      "gameId": "clickerheroes",
+      "name": "Clicker Heroes",
+      "description": "Click to defeat monsters and hire heroes in this epic idle RPG! Level up your heroes, unlock abilities, and progress through infinite levels.",
+      "icon": "assets/clicker-heroes.png",
+      "link": null,
+      "raw-game-link": "/game-assets/clickerheroes/index.html",
+      "category": "Idle",
+      "tags": ["clicker", "heroes", "rpg", "monsters", "leveling", "abilities", "infinite"]
+    },
+    {
+      "id": 61,
+      "gameId": "coreball",
+      "name": "Coreball",
+      "description": "Throw balls at the rotating core without hitting other balls! Test your timing and precision in this challenging arcade game with minimalist design.",
+      "icon": "assets/coreball.png",
+      "link": null,
+      "raw-game-link": "/game-assets/coreball/index.html",
+      "category": "Arcade",
+      "tags": ["balls", "rotating", "timing", "precision", "arcade", "minimalist", "challenging"]
+    },
+    {
+      "id": 62,
+      "gameId": "crossyroad",
+      "name": "Crossy Road",
+      "description": "Cross busy roads, rivers, and train tracks in this endless arcade hopper! Collect coins, unlock characters, and see how far you can go.",
+      "icon": "assets/crossy-road.png",
+      "link": null,
+      "raw-game-link": "/game-assets/crossy/index.html",
+      "category": "Arcade",
+      "tags": ["crossing", "endless", "hopper", "roads", "characters", "coins", "arcade"]
+    },
+    {
+      "id": 64,
+      "gameId": "cubefield",
+      "name": "Cube Field",
+      "description": "Navigate through a field of cubes at high speed! Dodge obstacles and test your reflexes in this fast-paced 3D tunnel runner game.",
+      "icon": "assets/cube-field.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/cubefield/index.html",
+      "category": "Racing",
+      "tags": ["cubes", "speed", "dodging", "reflexes", "3d", "tunnel", "fast-paced"]
     }
   ]
 };
