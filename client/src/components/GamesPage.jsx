@@ -14,7 +14,6 @@ const GamesPage = () => {
   const [games, setGames] = useState([]);
   const [filteredGames, setFilteredGames] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
-  const [hoveredGame, setHoveredGame] = useState(null);
   const [selectedTag, setSelectedTag] = useState(null);
   const navigate = useNavigate();
 
@@ -235,8 +234,6 @@ const GamesPage = () => {
                   }}
                   layout
                   whileHover={{ y: -10, scale: 1.02 }}
-                  onMouseEnter={() => setHoveredGame(game.id)}
-                  onMouseLeave={() => setHoveredGame(null)}
                   onClick={() => handleGameClick(game)}
                 >
                   {/* Game Card */}

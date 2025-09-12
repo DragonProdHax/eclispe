@@ -58,7 +58,7 @@ const GamePage = () => {
       setGameNotFound(true);
       setCurrentGame(null);
     }
-  }, [location, navigate]);
+  }, [location, navigate, gameImages]);
 
   const getCurrentDate = () => {
     return new Date().toLocaleDateString('en-US', {
