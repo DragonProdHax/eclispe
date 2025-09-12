@@ -406,6 +406,83 @@ const gamesData = {
       "raw-game-link": "/game-assets/archery-world-tour/index.html",
       "category": "Sports",
       "tags": ["archery", "world", "tournaments", "aiming", "wind", "bullseye", "champion"]
+    },
+    {
+      "id": 40,
+      "gameId": "asmallworldcup",
+      "name": "A Small World Cup",
+      "description": "Compete in the ultimate soccer tournament! Control your team through matches and work your way up to win the World Cup in this exciting sports game.",
+      "icon": "assets/a-small-world-cup.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/asmallworldcup/index.html",
+      "category": "Sports",
+      "tags": ["soccer", "world-cup", "tournament", "team", "matches", "sports", "competition"]
+    },
+    {
+      "id": 41,
+      "gameId": "awesometanks2",
+      "name": "Awesome Tanks 2",
+      "description": "Command powerful tanks in this action-packed sequel! Destroy enemies, upgrade your arsenal, and dominate the battlefield with strategic combat.",
+      "icon": "assets/awesome-tanks-2.png",
+      "link": null,
+      "raw-game-link": "/game-assets/AwesomeTanks2/index.html",
+      "category": "Action",
+      "tags": ["tanks", "sequel", "combat", "upgrade", "battlefield", "strategy", "destruction"]
+    },
+    {
+      "id": 42,
+      "gameId": "backrooms",
+      "name": "Backrooms",
+      "description": "Navigate the endless yellow maze of the Backrooms in this eerie horror experience. Find your way out while avoiding the entities that lurk in the shadows.",
+      "icon": "assets/backrooms.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/backrooms/index.html",
+      "category": "Horror",
+      "tags": ["horror", "maze", "backrooms", "entities", "eerie", "survival", "escape"]
+    },
+    {
+      "id": 43,
+      "gameId": "baconmaydie",
+      "name": "Bacon May Die",
+      "description": "Fight for survival as a piece of bacon in this intense action game! Battle through waves of enemies with various weapons and special abilities.",
+      "icon": "assets/bacon-may-die.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/baconmaydie/index.html",
+      "category": "Action",
+      "tags": ["bacon", "survival", "fighting", "waves", "weapons", "abilities", "intense"]
+    },
+    {
+      "id": 44,
+      "gameId": "badicecream",
+      "name": "Bad Ice Cream",
+      "description": "Control ice cream characters in this fun puzzle game! Create and break ice blocks to collect fruit while avoiding enemies in maze-like levels.",
+      "icon": "assets/bad-ice-cream.png",
+      "link": null,
+      "raw-game-link": "/game-assets/badicecream/index.html",
+      "category": "Puzzle",
+      "tags": ["ice-cream", "puzzle", "maze", "fruit", "blocks", "enemies", "multiplayer"]
+    },
+    {
+      "id": 45,
+      "gameId": "badicecream2",
+      "name": "Bad Ice Cream 2",
+      "description": "The sequel to Bad Ice Cream with new levels and challenges! Team up with friends to collect fruit and outsmart enemies in frozen mazes.",
+      "icon": "assets/bad-ice-cream-2.png",
+      "link": null,
+      "raw-game-link": "/game-assets/badicecream2/index.html",
+      "category": "Puzzle",
+      "tags": ["sequel", "ice-cream", "puzzle", "multiplayer", "frozen", "teamwork", "challenges"]
+    },
+    {
+      "id": 46,
+      "gameId": "badicecream3",
+      "name": "Bad Ice Cream 3",
+      "description": "The third installment of the popular ice cream series! Explore new environments and face tougher challenges in this cooperative puzzle adventure.",
+      "icon": "assets/bad-ice-cream-3.png",
+      "link": null,
+      "raw-game-link": "/game-assets/badicecream3/index.html",
+      "category": "Puzzle",
+      "tags": ["third", "installment", "ice-cream", "cooperative", "adventure", "environments", "challenges"]
     }
   ]
 };
