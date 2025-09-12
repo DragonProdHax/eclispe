@@ -68,7 +68,20 @@ app.get('/api/health', (req, res) => {
 
 // Serve React app for all other routes
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+  const indexPath = path.join(__dirname, 'client/build', 'index.html');
+  const fs = require('fs');
+  
+  // Check if build exists, if not send a helpful message
+  if (!fs.existsSync(indexPath)) {
+    return res.status(500).json({
+      error: 'React build not found',
+      message: 'The client build directory does not exist. Make sure the build process completed successfully.',
+      buildPath: indexPath,
+      currentDir: __dirname
+    });
+  }
+  
+  res.sendFile(indexPath);
 });
 
 const PORT = process.env.PORT || 3001;
