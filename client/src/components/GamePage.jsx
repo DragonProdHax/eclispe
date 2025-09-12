@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLocation, useNavigate } from 'react-router-dom';
 import gamesData from '../data/games.json';
@@ -18,13 +18,13 @@ const GamePage = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [gameNotFound, setGameNotFound] = useState(false);
 
-  const gameImages = {
+  const gameImages = useMemo(() => ({
     1: oneVOneLolImg,
     2: clusterRushImg,
     3: cookieClickerImg,
     4: polytrackImg,
     5: ragdollArchersImg
-  };
+  }), []);
 
   useEffect(() => {
     const searchParams = new URLSearchParams(location.search);
