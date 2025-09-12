@@ -483,6 +483,94 @@ const gamesData = {
       "raw-game-link": "/game-assets/badicecream3/index.html",
       "category": "Puzzle",
       "tags": ["third", "installment", "ice-cream", "cooperative", "adventure", "environments", "challenges"]
+    },
+    {
+      "id": 47,
+      "gameId": "badtimesimulator",
+      "name": "Bad Time Simulator",
+      "description": "Experience the infamous Sans boss fight from Undertale! Test your reflexes and determination in this challenging bullet-hell battle simulator.",
+      "icon": "assets/bad-time-simulator.png",
+      "link": null,
+      "raw-game-link": "/game-assets/badtimesimulator/index.html",
+      "category": "Action",
+      "tags": ["undertale", "sans", "boss-fight", "bullet-hell", "challenging", "reflexes", "simulator"]
+    },
+    {
+      "id": 48,
+      "gameId": "baldisbasics",
+      "name": "Baldi's Basics",
+      "description": "Collect all 7 notebooks and escape the school while avoiding Baldi and his friends in this horror-comedy educational parody game.",
+      "icon": "assets/baldis-basics.png",
+      "link": null,
+      "raw-game-link": "/game-assets/baldis-basics/index.html",
+      "category": "Horror",
+      "tags": ["horror", "comedy", "educational", "parody", "school", "notebooks", "escape"]
+    },
+    {
+      "id": 49,
+      "gameId": "basketrandom",
+      "name": "Basket Random",
+      "description": "Play basketball with random physics and unpredictable gameplay! Score baskets in this hilarious and chaotic sports game with ever-changing rules.",
+      "icon": "assets/basket-random.png",
+      "link": null,
+      "raw-game-link": "/game-assets/BasketRandom/index.html",
+      "category": "Sports",
+      "tags": ["basketball", "random", "physics", "chaotic", "hilarious", "unpredictable", "sports"]
+    },
+    {
+      "id": 50,
+      "gameId": "bigtowertinysquare",
+      "name": "Big Tower Tiny Square",
+      "description": "Navigate through a massive tower filled with deadly traps and precise platforming challenges. Help the tiny square rescue his pineapple!",
+      "icon": "assets/big-tower-tiny-square.png",
+      "link": null,
+      "raw-game-link": "/game-assets/big-tower-tiny-square-2/index.html",
+      "category": "Platformer",
+      "tags": ["tower", "platformer", "precise", "traps", "challenging", "pineapple", "tiny"]
+    },
+    {
+      "id": 51,
+      "gameId": "bobtherobber2",
+      "name": "Bob the Robber 2",
+      "description": "Help Bob continue his thieving adventures in this stealth puzzle game! Sneak past guards, disable security systems, and steal valuable treasures.",
+      "icon": "assets/bob-the-robber-2.png",
+      "link": null,
+      "raw-game-link": "/game-assets/bobtherobber2/index.html",
+      "category": "Puzzle",
+      "tags": ["stealth", "puzzle", "thief", "guards", "security", "treasures", "adventure"]
+    },
+    {
+      "id": 52,
+      "gameId": "boxingrandom",
+      "name": "Boxing Random",
+      "description": "Throw punches in this unpredictable boxing game with random physics! Fight your way to victory in hilarious and chaotic boxing matches.",
+      "icon": "assets/boxing-random.png",
+      "link": null,
+      "raw-game-link": "/game-assets/Boxing-Random/index.html",
+      "category": "Sports",
+      "tags": ["boxing", "random", "physics", "fighting", "chaotic", "hilarious", "matches"]
+    },
+    {
+      "id": 53,
+      "gameId": "blumgiracers",
+      "name": "Blumgi Racers",
+      "description": "Race through colorful tracks with unique vehicles in this fun racing game! Master different driving mechanics and compete for the best times.",
+      "icon": "assets/blumgi-racers.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/blumgiracers/index.html",
+      "category": "Racing",
+      "tags": ["racing", "colorful", "vehicles", "driving", "mechanics", "competition", "tracks"]
+    },
+    {
+      "id": 54,
+      "gameId": "bumbslime",
+      "name": "Bumb Slime",
+      "description": "Control a bouncy slime character through challenging platformer levels! Jump, bounce, and navigate obstacles in this adorable physics-based game.",
+      "icon": "assets/bumb-slime.png",
+      "link": null,
+      "raw-game-link": "/game-assets/BlumgiSlime/index.html",
+      "category": "Platformer",
+      "tags": ["slime", "bouncy", "platformer", "physics", "adorable", "obstacles", "jumping"]
     }
   ]
 };
