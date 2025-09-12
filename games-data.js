@@ -263,6 +263,17 @@ const gamesData = {
       "raw-game-link": "/game-assets/blumgipaintball/index.html",
       "category": "Action",
       "tags": ["paintball", "physics", "multiplayer", "shooter", "colorful", "battles", "environment"]
+    },
+    {
+      "id": 26,
+      "gameId": "eaglercraft",
+      "name": "Eaglercraft",
+      "description": "Play Minecraft 1.5.2 directly in your browser! Build, explore, and survive in this faithful recreation of the classic sandbox game. No downloads required.",
+      "icon": "assets/eaglercraft.png",
+      "link": null,
+      "raw-game-link": "/game-assets/eaglercraft/index.html",
+      "category": "Sandbox",
+      "tags": ["minecraft", "sandbox", "building", "survival", "crafting", "browser", "classic"]
     }
   ]
 };
