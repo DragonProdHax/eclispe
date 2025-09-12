@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body>
+  <canvas id="screen"></canvas>
+  <div id="ui"></div>
+  <div id="transition-layer"></div>
+
+  <script type="module" src="main.bundle.js" defer></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"2a2b7f26c71f4b9abae6f71f76049dba","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+<style>
+
+@font-face {
+	font-family: ForcedSquare;
+	src:
+		url(/game-assets/polytrack/a82f15d48dbc61b6edeb.woff2) format("woff2"),
+}
+.track-selection .category-container > button.official::before {
+    background-image: url(/game-assets/polytrack/images/official_tracks.jpg);
+}
+.track-selection .category-container > button.community::before {
+    background-image: url(game-assets/polytrack/images/community_tracks.jpg);
+}
+.track-selection .category-container > button.custom::before {
+    background-image: url(game-assets/polytrack/images/custom_tracks.jpg);
+}
+</style>

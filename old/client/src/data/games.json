@@ -1,0 +1,59 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "gameId": "1v1lol",
+      "name": "1v1 LOL",
+      "description": "Fast-paced 1v1 battle royale game with building mechanics. Test your skills against other players in intense combat.",
+      "icon": "/src/assets/1v1lol.png",
+      "link": null,
+      "raw-game-link": "/game-assets/1v1-lol/index.html",
+      "category": "Battle Royale",
+      "tags": ["battle royale", "building", "combat", "competitive"]
+    },
+    {
+      "id": 2,
+      "gameId": "clusterrush",
+      "name": "Cluster Rush",
+      "description": "Navigate through challenging obstacle courses with precise timing and quick reflexes in this addictive platformer.",
+      "icon": "/src/assets/cluster-rush.png",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Platformer",
+      "tags": ["platformer", "obstacles", "timing", "challenging"]
+    },
+    {
+      "id": 3,
+      "gameId": "cookieclicker",
+      "name": "Cookie Clicker",
+      "description": "The ultimate idle clicking game. Build your cookie empire and unlock upgrades to maximize your cookie production.",
+      "icon": "/src/assets/cookie-clicker.png",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Idle",
+      "tags": ["idle", "clicker", "incremental", "casual"]
+    },
+    {
+      "id": 4,
+      "gameId": "polytrack",
+      "name": "Polytrack",
+      "description": "Race through colorful geometric tracks in this high-speed racing game with stunning visual effects.",
+      "icon": "/src/assets/polytrack.jpg",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Racing",
+      "tags": ["racing", "speed", "geometric", "colorful"]
+    },
+    {
+      "id": 5,
+      "gameId": "ragdollarchers",
+      "name": "Ragdoll Archers",
+      "description": "Physics-based archery combat with ragdoll mechanics. Aim carefully and watch your enemies fall in hilarious ways.",
+      "icon": "/src/assets/ragdoll-archers.jpg",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Action",
+      "tags": ["archery", "physics", "ragdoll", "combat", "funny"]
+    }
+  ]
+}

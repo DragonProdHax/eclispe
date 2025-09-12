@@ -92,5 +92,3 @@ jspm_packages/
 # Vercel
 .vercel
 
-# Raw folder (not needed for deployment)
-/raw/

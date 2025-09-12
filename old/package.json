@@ -1,0 +1,27 @@
+{
+  "name": "eclipse-gaming-site",
+  "version": "1.0.0",
+  "description": "Eclipse - A dark themed unblocked gaming site",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "build": "npm install && cd client && npm install && npm run build",
+    "install-client": "cd client && npm install",
+    "postinstall": "cd client && npm install"
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "concurrently": "^8.2.0"
+  },
+  "keywords": ["gaming", "unblocked", "eclipse", "nebula"],
+  "author": "Eclipse Gaming",
+  "license": "MIT"
+}
