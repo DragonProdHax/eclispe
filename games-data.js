@@ -670,6 +670,127 @@ const gamesData = {
       "raw-game-link": "/game-assets/cubefield/index.html",
       "category": "Racing",
       "tags": ["cubes", "speed", "dodging", "reflexes", "3d", "tunnel", "fast-paced"]
+    },
+    {
+      "id": 65,
+      "gameId": "cuttherope",
+      "name": "Cut the Rope",
+      "description": "Feed candy to Om Nom by cutting ropes in the right order! Solve physics-based puzzles and collect stars in this adorable puzzle game.",
+      "icon": "assets/cut-the-rope.png",
+      "link": null,
+      "raw-game-link": "/game-assets/cuttherope/index.html",
+      "category": "Puzzle",
+      "tags": ["physics", "puzzle", "candy", "rope", "stars", "adorable", "om-nom"]
+    },
+    {
+      "id": 66,
+      "gameId": "dante",
+      "name": "Dante",
+      "description": "Navigate through hellish landscapes in this challenging platformer inspired by Dante's Inferno! Jump, dodge, and survive through multiple circles of hell.",
+      "icon": "assets/dante.png",
+      "link": null,
+      "raw-game-link": "/game-assets/dante/index.html",
+      "category": "Platformer",
+      "tags": ["hell", "inferno", "challenging", "platformer", "dante", "survival", "circles"]
+    },
+    {
+      "id": 67,
+      "gameId": "dayofmeatradiation",
+      "name": "Day of Meat Radiation",
+      "description": "Survive in a post-apocalyptic world filled with mutated creatures! Fight for survival, gather resources, and uncover the mystery of the radiation.",
+      "icon": "assets/day-of-meat-radiation.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/dayofmeatradiation/index.html",
+      "category": "Action",
+      "tags": ["post-apocalyptic", "survival", "mutated", "creatures", "radiation", "resources", "mystery"]
+    },
+    {
+      "id": 68,
+      "gameId": "dealornodeal",
+      "name": "Deal or No Deal",
+      "description": "Play the famous TV game show! Choose briefcases, make deals with the banker, and try to win the million-dollar prize in this exciting game of chance.",
+      "icon": "assets/deal-or-no-deal.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/deal-or-no-deal/index.html",
+      "category": "Puzzle",
+      "tags": ["tv-show", "briefcases", "banker", "million", "chance", "deal", "prize"]
+    },
+    {
+      "id": 69,
+      "gameId": "dogeminer",
+      "name": "Doge Miner",
+      "description": "Help Doge mine for Dogecoin in this incremental clicker game! Upgrade your mining equipment, hire helpers, and reach the moon with Doge!",
+      "icon": "assets/doge-miner.png",
+      "link": null,
+      "raw-game-link": "/game-assets/dogeminer/index.html",
+      "category": "Idle",
+      "tags": ["doge", "mining", "dogecoin", "incremental", "clicker", "moon", "upgrades"]
+    },
+    {
+      "id": 70,
+      "gameId": "dogeminer2",
+      "name": "Doge Miner 2",
+      "description": "The sequel to Doge Miner with space exploration! Mine on different planets, unlock new areas, and help Doge conquer the galaxy!",
+      "icon": "assets/doge-miner-2.png",
+      "link": null,
+      "raw-game-link": "/game-assets/dogeminer2/index.html",
+      "category": "Idle",
+      "tags": ["sequel", "space", "planets", "galaxy", "doge", "mining", "exploration"]
+    },
+    {
+      "id": 71,
+      "gameId": "doodlejump",
+      "name": "Doodle Jump",
+      "description": "Jump as high as you can in this endless vertical platformer! Avoid monsters, collect power-ups, and see how high you can climb!",
+      "icon": "assets/doodle-jump.png",
+      "link": null,
+      "raw-game-link": "/game-assets/doodle-jump/index.html",
+      "category": "Arcade",
+      "tags": ["jumping", "endless", "vertical", "monsters", "power-ups", "climbing", "high-score"]
+    },
+    {
+      "id": 72,
+      "gameId": "dreadhead",
+      "name": "Dread Head",
+      "description": "Navigate through dangerous parkour courses in this intense action game! Perform stunts, avoid obstacles, and master the art of free-running.",
+      "icon": "assets/dread-head.png",
+      "link": null,
+      "raw-game-link": "/game-assets/dreadhead-parkour/index.html",
+      "category": "Action",
+      "tags": ["parkour", "stunts", "obstacles", "free-running", "intense", "dangerous", "courses"]
+    },
+    {
+      "id": 74,
+      "gameId": "ducklingsio",
+      "name": "Ducklings.io",
+      "description": "Lead a family of ducklings to safety in this multiplayer survival game! Avoid predators, collect food, and grow your duckling family.",
+      "icon": "assets/ducklings-io.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/ducklingsio/index.html",
+      "category": "Multiplayer",
+      "tags": ["ducklings", "family", "survival", "multiplayer", "predators", "food", "io-game"]
+    },
+    {
+      "id": 75,
+      "gameId": "dune",
+      "name": "Dune",
+      "description": "Experience the epic sci-fi world of Dune! Command armies, control spice production, and fight for control of the desert planet Arrakis.",
+      "icon": "assets/dune.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/dune/index.html",
+      "category": "Strategy",
+      "tags": ["sci-fi", "dune", "armies", "spice", "desert", "arrakis", "epic"]
+    },
+    {
+      "id": 76,
+      "gameId": "eggycar",
+      "name": "Eggy Car",
+      "description": "Drive carefully to transport eggs without breaking them! Navigate through challenging terrain while keeping your precious cargo safe.",
+      "icon": "assets/eggy-car.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/EggyCar/index.html",
+      "category": "Racing",
+      "tags": ["driving", "eggs", "transport", "terrain", "cargo", "careful", "challenging"]
     }
   ]
 };
