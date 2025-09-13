@@ -791,6 +791,182 @@ const gamesData = {
       "raw-game-link": "/game-assets/EggyCar/index.html",
       "category": "Racing",
       "tags": ["driving", "eggs", "transport", "terrain", "cargo", "careful", "challenging"]
+    },
+    {
+      "id": 77,
+      "gameId": "escaperoad",
+      "name": "Escape Road",
+      "description": "Escape from the police in this intense driving game! Navigate through traffic, avoid roadblocks, and see how long you can evade capture.",
+      "icon": "assets/escape-road.png",
+      "link": null,
+      "raw-game-link": "/game-assets/escaperoad/index.html",
+      "category": "Racing",
+      "tags": ["escape", "police", "driving", "traffic", "roadblocks", "evasion", "intense"]
+    },
+    {
+      "id": 79,
+      "gameId": "fireboyandwatergirl1",
+      "name": "Fireboy and Watergirl 1",
+      "description": "Control both characters to solve puzzles in the Forest Temple! Work together to collect gems and reach the exit in this cooperative puzzle platformer.",
+      "icon": "assets/fireboy-watergirl-1.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/fireboyandwatergirl1/index.html",
+      "category": "Puzzle",
+      "tags": ["cooperative", "puzzle", "platformer", "temple", "gems", "teamwork", "elements"]
+    },
+    {
+      "id": 80,
+      "gameId": "fnaf",
+      "name": "Five Nights at Freddy's",
+      "description": "Survive five nights as a security guard at Freddy Fazbear's Pizza! Monitor cameras, conserve power, and avoid the animatronics in this horror classic.",
+      "icon": "assets/fnaf.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/fnaf/index.html",
+      "category": "Horror",
+      "tags": ["fnaf", "horror", "survival", "animatronics", "security", "cameras", "classic"]
+    },
+    {
+      "id": 81,
+      "gameId": "fnaf2",
+      "name": "Five Nights at Freddy's 2",
+      "description": "Return to Freddy Fazbear's Pizza with new animatronics and mechanics! Use your flashlight and Freddy mask to survive the night shift.",
+      "icon": "assets/fnaf-2.png",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Horror",
+      "tags": ["fnaf", "sequel", "horror", "flashlight", "mask", "animatronics", "night-shift"]
+    },
+    {
+      "id": 82,
+      "gameId": "fnaf3",
+      "name": "Five Nights at Freddy's 3",
+      "description": "Face Springtrap in this horror attraction! Manage ventilation, audio, and camera systems while avoiding the deadly animatronic.",
+      "icon": "assets/fnaf-3.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/fnaf3/index.html",
+      "category": "Horror",
+      "tags": ["fnaf", "springtrap", "horror", "ventilation", "audio", "attraction", "deadly"]
+    },
+    {
+      "id": 83,
+      "gameId": "fnaf4",
+      "name": "Five Nights at Freddy's 4",
+      "description": "Survive nightmares in a child's bedroom! Listen carefully for sounds and use your flashlight to ward off nightmare animatronics.",
+      "icon": "assets/fnaf-4.png",
+      "link": null,
+      "raw-game-link": "/game-assets/fnaf4/index.html",
+      "category": "Horror",
+      "tags": ["fnaf", "nightmares", "bedroom", "sounds", "flashlight", "child", "listening"]
+    },
+    {
+      "id": 84,
+      "gameId": "fnafsisterlocation",
+      "name": "FNAF Sister Location",
+      "description": "Explore Circus Baby's Entertainment and Rental! Navigate through different rooms and survive encounters with new animatronics.",
+      "icon": "assets/fnaf-sister-location.png",
+      "link": null,
+      "raw-game-link": "/game-assets/FNAF5/index.html",
+      "category": "Horror",
+      "tags": ["fnaf", "sister-location", "circus-baby", "entertainment", "rooms", "exploration", "new"]
+    },
+    {
+      "id": 85,
+      "gameId": "freeriderjumps",
+      "name": "Free Rider Jumps",
+      "description": "Create and ride custom bike tracks! Design challenging courses with ramps, loops, and obstacles in this physics-based motorcycle game.",
+      "icon": "assets/free-rider-jumps.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/free-rider-jumps/index.html",
+      "category": "Racing",
+      "tags": ["bike", "custom", "tracks", "ramps", "loops", "physics", "motorcycle"]
+    },
+    {
+      "id": 86,
+      "gameId": "fryingnemo",
+      "name": "Frying Nemo",
+      "description": "Help Nemo escape from the frying pan in this action-packed adventure! Jump, dodge, and survive through kitchen hazards.",
+      "icon": "assets/frying-nemo.png",
+      "link": null,
+      "raw-game-link": "/game-assets/fryingnemo/index.html",
+      "category": "Action",
+      "tags": ["nemo", "escape", "frying-pan", "kitchen", "hazards", "jumping", "dodging"]
+    },
+    {
+      "id": 87,
+      "gameId": "fruitmerge",
+      "name": "Fruit Merge",
+      "description": "Merge identical fruits to create bigger ones! Drop fruits strategically and combine them to reach the ultimate watermelon in this puzzle game.",
+      "icon": "assets/fruit-merge.png",
+      "link": null,
+      "raw-game-link": "/game-assets/fruitmerge/index.html",
+      "category": "Puzzle",
+      "tags": ["merge", "fruits", "puzzle", "watermelon", "strategy", "combining", "dropping"]
+    },
+    {
+      "id": 88,
+      "gameId": "fruitninja",
+      "name": "Fruit Ninja",
+      "description": "Slice fruits with your finger while avoiding bombs! Test your reflexes and aim for high scores in this addictive arcade game.",
+      "icon": "assets/fruit-ninja.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/fruitninja/index.html",
+      "category": "Arcade",
+      "tags": ["slicing", "fruits", "bombs", "reflexes", "high-score", "addictive", "finger"]
+    },
+    {
+      "id": 89,
+      "gameId": "funnymadracing",
+      "name": "Funny Mad Racing",
+      "description": "Race through crazy tracks with wacky vehicles! Perform stunts, collect power-ups, and compete in this hilarious racing game.",
+      "icon": "assets/funny-mad-racing.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/funnymadracing/index.html",
+      "category": "Racing",
+      "tags": ["racing", "crazy", "wacky", "stunts", "power-ups", "hilarious", "vehicles"]
+    },
+    {
+      "id": 90,
+      "gameId": "funnyshooter2",
+      "name": "Funny Shooter 2",
+      "description": "Battle through levels with quirky weapons and enemies! Enjoy fast-paced shooting action with humorous characters and situations.",
+      "icon": "assets/funny-shooter-2.png",
+      "link": null,
+      "raw-game-link": "/game-assets/FunnyShooter2/index.html",
+      "category": "Action",
+      "tags": ["shooting", "quirky", "weapons", "enemies", "fast-paced", "humorous", "characters"]
+    },
+    {
+      "id": 92,
+      "gameId": "geometrydash",
+      "name": "Geometry Dash",
+      "description": "Jump and fly through geometric obstacles to the beat! Test your timing and reflexes in this rhythm-based platformer with epic music.",
+      "icon": "assets/geometry-dash.png",
+      "link": null,
+      "raw-game-link": "/game-assets/geometrydash/index.html",
+      "category": "Platformer",
+      "tags": ["geometry", "obstacles", "rhythm", "timing", "reflexes", "music", "jumping"]
+    },
+    {
+      "id": 93,
+      "gameId": "getawayshootout",
+      "name": "Getaway Shootout",
+      "description": "Race to the getaway vehicle in this chaotic multiplayer game! Use weapons and physics to eliminate opponents and reach the escape point first.",
+      "icon": "assets/getaway-shootout.jpeg",
+      "link": null,
+      "raw-game-link": "/game-assets/getawaysshootout/index.html",
+      "category": "Multiplayer",
+      "tags": ["getaway", "multiplayer", "chaotic", "weapons", "physics", "opponents", "escape"]
+    },
+    {
+      "id": 94,
+      "gameId": "golforbit",
+      "name": "Golf Orbit",
+      "description": "Launch golf balls into space! Use planetary gravity to guide your shots and reach impossible distances in this unique golf game.",
+      "icon": "assets/golf-orbit.jpg",
+      "link": null,
+      "raw-game-link": "/game-assets/golforbit/index.html",
+      "category": "Sports",
+      "tags": ["golf", "space", "gravity", "planets", "distance", "unique", "launching"]
     }
   ]
 };
