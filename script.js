@@ -2,6 +2,7 @@
 let currentPage = "home";
 let currentGame = null;
 let filteredGames = [...gamesData.games];
+let gameLeaveConfirmationEnabled = false;
 
 // DOM elements GG Sucks BTW
 const pages = {
@@ -18,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
   initializeHomeGames();
   initializeGamesPage();
   initializeGamePage();
+  initializeGameLeaveConfirmation();
 
   // Set initial page
   showPage("home");
@@ -30,10 +32,15 @@ function initializeNavigation() {
 
   navLinks.forEach((link) => {
     link.addEventListener("click", (e) => {
-      e.preventDefault();
       const page = link.getAttribute("data-page");
-      showPage(page);
-      updateActiveNavLink(link);
+      
+      // Only prevent default for internal navigation (links with data-page)
+      if (page) {
+        e.preventDefault();
+        showPage(page);
+        updateActiveNavLink(link);
+      }
+      // For external links (like YouTube), let the browser handle normally
     });
   });
 
@@ -413,6 +420,9 @@ function initializeGamePage() {
 
   if (backButton) {
     backButton.addEventListener("click", () => {
+      // Disable leave confirmation when leaving game
+      gameLeaveConfirmationEnabled = false;
+      
       showPage("games");
       updateActiveNavLink(document.querySelector('[data-page="games"]'));
 
@@ -457,6 +467,9 @@ function initializeGamePage() {
 
 function playGame(game) {
   currentGame = game;
+
+  // Enable leave confirmation when playing a game
+  gameLeaveConfirmationEnabled = true;
 
   // Update game page content
   const gameTitle = document.getElementById("gameTitle");
@@ -653,6 +666,25 @@ document.addEventListener("click", function (e) {
     }, 600);
   }
 });
+
+
+// Game leave confirmation
+function initializeGameLeaveConfirmation() {
+  console.log('Initializing game leave confirmation'); // Debug log
+  
+  window.onbeforeunload = function (e) {
+    console.log('beforeunload triggered'); // Debug log
+    // Show confirmation dialog when user tries to reload or leave the page
+    const confirmationMessage = 'Are you sure you want to leave? Any unsaved progress may be lost.';
+    
+    // For modern browsers
+    e.preventDefault();
+    e.returnValue = confirmationMessage;
+    
+    // For older browsers
+    return confirmationMessage;
+  };
+}
 
 // Add ripple animation CSS
 const style = document.createElement("style");

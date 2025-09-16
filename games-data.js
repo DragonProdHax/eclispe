@@ -1719,7 +1719,7 @@ const gamesData = {
       "description": "Mine resources and craft items in this Minecraft-inspired incremental game! Gather materials, unlock new tools, and build your crafting empire.",
       "icon": "assets/grind-craft.png",
       "link": null,
-      "raw-game-link": null,
+      "raw-game-link": "/game-assets/grindcraft/index.html",
       "category": "Idle",
       "tags": ["minecraft", "crafting", "mining", "incremental", "resources", "tools", "empire"]
     },
@@ -1730,7 +1730,7 @@ const gamesData = {
       "description": "Plant seeds, water them, and watch your garden bloom! Manage resources and time to create the most beautiful garden possible.",
       "icon": "assets/grow-a-garden.png",
       "link": null,
-      "raw-game-link": null,
+      "raw-game-link": "/game-assets/growagarden/index.html",
       "category": "Simulation",
       "tags": ["gardening", "plants", "simulation", "relaxing", "management", "nature", "growth"]
     },
@@ -1741,31 +1741,9 @@ const gamesData = {
       "description": "Test your reflexes in this western-style quick-draw dueling game! Face off against opponents and see who has the fastest draw in the Wild West.",
       "icon": "assets/gun-blood.png",
       "link": null,
-      "raw-game-link": null,
+      "raw-game-link": "/game-assets/Gunblood/index.html",
       "category": "Action",
       "tags": ["western", "dueling", "reflexes", "quick-draw", "wild-west", "shooting", "competition"]
-    },
-    {
-      "id": 98,
-      "gameId": "gunnightmare",
-      "name": "Gun Nightmare",
-      "description": "Survive waves of nightmarish creatures in this intense survival shooter! Use various weapons and tactics to fight through the horror.",
-      "icon": "assets/gun-nightmare.png",
-      "link": null,
-      "raw-game-link": null,
-      "category": "Action",
-      "tags": ["horror", "survival", "shooter", "nightmare", "waves", "weapons", "intense"]
-    },
-    {
-      "id": 99,
-      "gameId": "impquiz",
-      "name": "Imp Quiz",
-      "description": "Test your knowledge with this devilishly challenging quiz game! Answer questions about various topics and prove your expertise.",
-      "icon": "assets/imp-quiz.png",
-      "link": null,
-      "raw-game-link": null,
-      "category": "Puzzle",
-      "tags": ["quiz", "trivia", "imps", "demons", "knowledge", "supernatural", "expertise"]
     },
     {
       "id": 100,
@@ -1774,7 +1752,7 @@ const gamesData = {
       "description": "Manage your farm and harvest crops in this farming simulation! Plant, grow, and sell your produce to build a successful agricultural business.",
       "icon": "assets/harvest-simulator.png",
       "link": null,
-      "raw-game-link": null,
+      "raw-game-link": "/game-assets-2/harvestsimulator/index.html",
       "category": "Simulation",
       "tags": ["farming", "crops", "harvest", "simulation", "agriculture", "business", "management"]
     },
@@ -1785,7 +1763,7 @@ const gamesData = {
       "description": "Help Henry infiltrate the Toppat Clan's airship! Make choices that lead to different outcomes in this interactive adventure.",
       "icon": "assets/henry-stickmin-airship.png",
       "link": null,
-      "raw-game-link": null,
+      "raw-game-link": "/game-assets-2/henryinfiltratingtheairship/index.html",
       "category": "Adventure",
       "tags": ["henry-stickmin", "airship", "choices", "interactive", "adventure", "toppat", "infiltrate"]
     },
@@ -1796,7 +1774,7 @@ const gamesData = {
       "description": "Help Henry break into the bank in this choose-your-own-adventure game! Make decisions and see the hilarious consequences.",
       "icon": "assets/henry-stickmin-bank.png",
       "link": null,
-      "raw-game-link": null,
+      "raw-game-link": "/game-assets-2/henrysbreakingthebank/index.html",
       "category": "Adventure",
       "tags": ["henry-stickmin", "bank", "heist", "choices", "adventure", "hilarious", "consequences"]
     },
@@ -1807,7 +1785,7 @@ const gamesData = {
       "description": "Join Henry on his quest to steal the Tunisian Diamond! Navigate through multiple paths and endings in this interactive story.",
       "icon": "assets/henry-stickmin-diamond.png",
       "link": null,
-      "raw-game-link": null,
+      "raw-game-link": "/game-assets-2/henrystealingthediamond/index.html",
       "category": "Adventure",
       "tags": ["henry-stickmin", "diamond", "stealing", "tunisian", "paths", "endings", "interactive"]
     },
@@ -1818,7 +1796,7 @@ const gamesData = {
       "description": "Help Henry escape from prison using various tools and methods! Choose your escape route and see if you can break free.",
       "icon": "assets/henry-stickmin-escaping.png",
       "link": null,
-      "raw-game-link": null,
+      "raw-game-link": "/game-assets-2/henryescapingtheprison/index.html",
       "category": "Adventure",
       "tags": ["henry-stickmin", "prison", "escape", "tools", "methods", "routes", "break-free"]
     },
@@ -1829,7 +1807,7 @@ const gamesData = {
       "description": "Help Henry flee from the government complex! Make strategic choices to escape capture in this thrilling adventure.",
       "icon": "assets/henry-stickmin-fleeing.jpg",
       "link": null,
-      "raw-game-link": null,
+      "raw-game-link": "/game-assets-2/henryfleeingthecomplex/index.html",
       "category": "Adventure",
       "tags": ["henry-stickmin", "complex", "fleeing", "government", "strategic", "escape", "thrilling"]
     },
@@ -1840,7 +1818,7 @@ const gamesData = {
       "description": "Race futuristic ships through neon-lit tracks! Experience high-speed racing with stunning visuals in this WebGL-powered game.",
       "icon": "assets/hexgl.png",
       "link": null,
-      "raw-game-link": null,
+      "raw-game-link": "/game-assets-2/hexgl/index.html",
       "category": "Racing",
       "tags": ["futuristic", "ships", "neon", "high-speed", "racing", "webgl", "stunning"]
     },
@@ -1851,7 +1829,7 @@ const gamesData = {
       "description": "Drive uphill and collect coins in this physics-based racing game! Upgrade your vehicle and conquer challenging terrain.",
       "icon": "assets/hill-climb-racing.png",
       "link": null,
-      "raw-game-link": null,
+      "raw-game-link": "/game-assets-2/hillcimbbracing/index.html",
       "category": "Racing",
       "tags": ["uphill", "coins", "physics", "racing", "upgrades", "vehicle", "terrain"]
     },
@@ -1862,20 +1840,9 @@ const gamesData = {
       "description": "Survive against 100 opponents in this battle royale game! Use strategy and skill to be the last one standing.",
       "icon": "assets/you-vs-100.jpg",
       "link": null,
-      "raw-game-link": null,
+      "raw-game-link": "/game-assets-2/hordekilleryouvs100/index.html",
       "category": "Multiplayer",
       "tags": ["battle-royale", "100-players", "survival", "strategy", "skill", "last-standing", "opponents"]
-    },
-    {
-      "id": 109,
-      "gameId": "idleants",
-      "name": "Idle Ants",
-      "description": "Build and manage an ant colony in this idle simulation! Watch your ants work automatically while you upgrade and expand.",
-      "icon": "assets/idle-ants.jpg",
-      "link": null,
-      "raw-game-link": null,
-      "category": "Idle",
-      "tags": ["ants", "colony", "idle", "simulation", "automatic", "upgrades", "expand"]
     },
     {
       "id": 110,
@@ -1884,7 +1851,7 @@ const gamesData = {
       "description": "Break blocks automatically in this idle version of Breakout! Upgrade your balls and watch them work while you're away.",
       "icon": "assets/idle-breakout.png",
       "link": null,
-      "raw-game-link": null,
+      "raw-game-link": "/game-assets-2/idle-breakout-main/index.html",
       "category": "Idle",
       "tags": ["breakout", "blocks", "automatic", "idle", "balls", "upgrades", "away"]
     },
@@ -1906,7 +1873,7 @@ const gamesData = {
       "description": "Test your knowledge about imps and demons in this trivia game! Answer questions correctly to prove your supernatural expertise.",
       "icon": "assets/imp-quiz.png",
       "link": null,
-      "raw-game-link": null,
+      "raw-game-link": "/game-assets-2/The-Impossible-Quiz-main/index.html",
       "category": "Puzzle",
       "tags": ["quiz", "trivia", "imps", "demons", "knowledge", "supernatural", "expertise"]
     }
