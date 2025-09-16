@@ -967,6 +967,204 @@ const gamesData = {
       "raw-game-link": "/game-assets/golforbit/index.html",
       "category": "Sports",
       "tags": ["golf", "space", "gravity", "planets", "distance", "unique", "launching"]
+    },
+    {
+      "id": 95,
+      "gameId": "grindcraft",
+      "name": "Grind Craft",
+      "description": "Mine resources and craft items in this Minecraft-inspired incremental game! Gather materials, unlock new tools, and build your crafting empire.",
+      "icon": "assets/grind-craft.png",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Idle",
+      "tags": ["minecraft", "crafting", "mining", "incremental", "resources", "tools", "empire"]
+    },
+    {
+      "id": 96,
+      "gameId": "growagarden",
+      "name": "Grow a Garden",
+      "description": "Plant seeds, water them, and watch your garden bloom! Manage resources and time to create the most beautiful garden possible.",
+      "icon": "assets/grow-a-garden.png",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Simulation",
+      "tags": ["gardening", "plants", "seeds", "watering", "resources", "time-management", "beautiful"]
+    },
+    {
+      "id": 97,
+      "gameId": "gunblood",
+      "name": "Gun Blood",
+      "description": "Face off in classic Wild West duels! Test your reflexes and aim in this fast-paced western shooting game.",
+      "icon": "assets/gun-blood.jpeg",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Action",
+      "tags": ["western", "duels", "wild-west", "reflexes", "shooting", "fast-paced", "aim"]
+    },
+    {
+      "id": 98,
+      "gameId": "happyglass",
+      "name": "Happy Glass",
+      "description": "Draw lines to fill the glass with water and make it happy! Solve physics puzzles with creative solutions in this relaxing game.",
+      "icon": "assets/happy-glass.jpg",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Puzzle",
+      "tags": ["drawing", "physics", "water", "glass", "creative", "relaxing", "solutions"]
+    },
+    {
+      "id": 99,
+      "gameId": "happywheels",
+      "name": "Happy Wheels",
+      "description": "Navigate dangerous obstacle courses with various characters! Experience ragdoll physics and creative level design in this iconic game.",
+      "icon": "assets/happy-wheels.png",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Action",
+      "tags": ["obstacles", "ragdoll", "physics", "characters", "dangerous", "creative", "iconic"]
+    },
+    {
+      "id": 100,
+      "gameId": "harvestsimulator",
+      "name": "Harvest Simulator",
+      "description": "Manage your farm and harvest crops in this farming simulation! Plant, grow, and sell your produce to build a successful agricultural business.",
+      "icon": "assets/harvest-simulator.png",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Simulation",
+      "tags": ["farming", "crops", "harvest", "simulation", "agriculture", "business", "management"]
+    },
+    {
+      "id": 101,
+      "gameId": "henrystickminairship",
+      "name": "Henry Stickmin: Infiltrating the Airship",
+      "description": "Help Henry infiltrate the Toppat Clan's airship! Make choices that lead to different outcomes in this interactive adventure.",
+      "icon": "assets/henry-stickmin-airship.png",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Adventure",
+      "tags": ["henry-stickmin", "airship", "choices", "interactive", "adventure", "toppat", "infiltrate"]
+    },
+    {
+      "id": 102,
+      "gameId": "henrystickminbank",
+      "name": "Henry Stickmin: Breaking the Bank",
+      "description": "Help Henry break into the bank in this choose-your-own-adventure game! Make decisions and see the hilarious consequences.",
+      "icon": "assets/henry-stickmin-bank.png",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Adventure",
+      "tags": ["henry-stickmin", "bank", "heist", "choices", "adventure", "hilarious", "consequences"]
+    },
+    {
+      "id": 103,
+      "gameId": "henrystickmindiamond",
+      "name": "Henry Stickmin: Stealing the Diamond",
+      "description": "Join Henry on his quest to steal the Tunisian Diamond! Navigate through multiple paths and endings in this interactive story.",
+      "icon": "assets/henry-stickmin-diamond.png",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Adventure",
+      "tags": ["henry-stickmin", "diamond", "stealing", "tunisian", "paths", "endings", "interactive"]
+    },
+    {
+      "id": 104,
+      "gameId": "henrystickminescaping",
+      "name": "Henry Stickmin: Escaping the Prison",
+      "description": "Help Henry escape from prison using various tools and methods! Choose your escape route and see if you can break free.",
+      "icon": "assets/henry-stickmin-escaping.png",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Adventure",
+      "tags": ["henry-stickmin", "prison", "escape", "tools", "methods", "routes", "break-free"]
+    },
+    {
+      "id": 105,
+      "gameId": "henrystickminfleeing",
+      "name": "Henry Stickmin: Fleeing the Complex",
+      "description": "Help Henry flee from the government complex! Make strategic choices to escape capture in this thrilling adventure.",
+      "icon": "assets/henry-stickmin-fleeing.jpg",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Adventure",
+      "tags": ["henry-stickmin", "complex", "fleeing", "government", "strategic", "escape", "thrilling"]
+    },
+    {
+      "id": 106,
+      "gameId": "hexgl",
+      "name": "HexGL",
+      "description": "Race futuristic ships through neon-lit tracks! Experience high-speed racing with stunning visuals in this WebGL-powered game.",
+      "icon": "assets/hexgl.png",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Racing",
+      "tags": ["futuristic", "ships", "neon", "high-speed", "racing", "webgl", "stunning"]
+    },
+    {
+      "id": 107,
+      "gameId": "hillclimbracing",
+      "name": "Hill Climb Racing",
+      "description": "Drive uphill and collect coins in this physics-based racing game! Upgrade your vehicle and conquer challenging terrain.",
+      "icon": "assets/hill-climb-racing.png",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Racing",
+      "tags": ["uphill", "coins", "physics", "racing", "upgrades", "vehicle", "terrain"]
+    },
+    {
+      "id": 108,
+      "gameId": "youvs100",
+      "name": "You vs 100",
+      "description": "Survive against 100 opponents in this battle royale game! Use strategy and skill to be the last one standing.",
+      "icon": "assets/you-vs-100.jpg",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Multiplayer",
+      "tags": ["battle-royale", "100-players", "survival", "strategy", "skill", "last-standing", "opponents"]
+    },
+    {
+      "id": 109,
+      "gameId": "idleants",
+      "name": "Idle Ants",
+      "description": "Build and manage an ant colony in this idle simulation! Watch your ants work automatically while you upgrade and expand.",
+      "icon": "assets/idle-ants.jpg",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Idle",
+      "tags": ["ants", "colony", "idle", "simulation", "automatic", "upgrades", "expand"]
+    },
+    {
+      "id": 110,
+      "gameId": "idlebreakout",
+      "name": "Idle Breakout",
+      "description": "Break blocks automatically in this idle version of Breakout! Upgrade your balls and watch them work while you're away.",
+      "icon": "assets/idle-breakout.png",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Idle",
+      "tags": ["breakout", "blocks", "automatic", "idle", "balls", "upgrades", "away"]
+    },
+    {
+      "id": 111,
+      "gameId": "idledice",
+      "name": "Idle Dice",
+      "description": "Roll dice and earn points in this relaxing idle game! Upgrade your dice and unlock new features as you progress.",
+      "icon": "assets/idle-dice.jpg",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Idle",
+      "tags": ["dice", "rolling", "points", "relaxing", "idle", "upgrades", "features"]
+    },
+    {
+      "id": 112,
+      "gameId": "impquiz",
+      "name": "Imp Quiz",
+      "description": "Test your knowledge about imps and demons in this trivia game! Answer questions correctly to prove your supernatural expertise.",
+      "icon": "assets/imp-quiz.png",
+      "link": null,
+      "raw-game-link": null,
+      "category": "Puzzle",
+      "tags": ["quiz", "trivia", "imps", "demons", "knowledge", "supernatural", "expertise"]
     }
   ]
 };
